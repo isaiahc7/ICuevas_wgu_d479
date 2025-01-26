@@ -1,0 +1,88 @@
+/*top navigation - all pages*/
+nav.topnav {
+    background-color:#0606f9;
+    overflow: hidden;
+}
+
+nav.topnav a {
+    float: left;
+    text-align: center;
+    padding: 40px 40px;
+    font-size: 10;
+    color:white
+}
+
+a:hover  {
+    background-color:#0080ff;
+}
+
+/*Images*/
+div.sources {
+    font-size: 100;
+    background-color:#0606f9;
+    color: white
+}
+
+img {
+    float: right;
+    position: relative, left;
+}
+
+div.sourcesLeft {
+    float: left;
+}
+
+/*Table - Kentucky Page*/
+table, th, td {
+    border: 2px solid;
+    position: relative, left;
+}
+
+table {
+    text-align: left;
+}
+
+th, td {
+    text-align: left;
+}
+
+/*Title headers*/
+h1 {
+     font-family: Papyrus;
+     font-size: 40px;
+}  
+
+/*List text*/
+ul, ol {
+    font-family: Papyrus;
+    font-size: 20px;
+}
+
+ol {
+    background-color: #A17639;
+    color: white;
+    font-weight: 100;
+    padding-right: 20px;
+}
+
+/*Form*/
+form {
+    position: relative;
+    text-align: justify;
+}
+
+#info {
+    text-align: justify;
+}
+
+/*Cred Id in Footers*/
+#cred {
+    text-align: center;
+}
+
+button {
+    padding: 50px 50px 50px 50px;
+    float:center;
+    border-radius: 20px;
+
+}
